@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#DAE0E2"
+    >
+
+    <Button
+        android:id="@+id/errorButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:text="ERROR BUTTON"
+        android:background="#FF362E"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:onClick="showPressed"
+        />
+    <Button
+        android:id="@+id/sucessButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:text="SUCCESS BUTTON"
+        android:background="#1BCA9B"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:onClick="showPressed"
+        />
+    <Button
+        android:id="@+id/infoButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:text="INFO BUTTON"
+        android:background="#3498DB"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:onClick="showPressed"
+        />
+    <Button
+        android:id="@+id/warningButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:text="WARNING BUTTON"
+        android:background="#2F363F"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:onClick="showPressed"
+        />
+    <Button
+        android:id="@+id/imageButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:text="IMAGE BUTTON"
+        android:background="#FAD02E"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:onClick="showPressed"
+        />
+
+</LinearLayout>
